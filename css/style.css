@@ -58,6 +58,12 @@ body{
     margin-bottom: 1.5rem;
 }
 
+.jumbotron i{
+    font-size: 2.7rem;
+    margin-top: 4.7rem;
+    display: inline-block;
+}
+
 .jumbotron img{
     position: relative;
     top: 3.5rem;
@@ -76,6 +82,12 @@ body{
     margin: 2rem 0;
 }
 
+.fatturazione{
+    gap: 4rem;
+    margin-bottom: 3.5rem;
+
+}
+
 .column-container{
     justify-content: space-between;
     margin-bottom: 3rem;
@@ -85,6 +97,10 @@ body{
     text-align: center;
     padding: .3rem 0;
     border-bottom: 2px solid lightgray;
+}
+
+.column .type i{
+    padding: 0.3rem;
 }
 
 .column .list{
@@ -174,6 +190,10 @@ body{
 
 /* PARTNER */
 
+.partner{
+    margin-bottom: 7rem;
+}
+
 .partner h3{
     font-size: 1.3rem;
     font-weight: bold;
@@ -184,10 +204,70 @@ body{
 }
    
     
-
-
-
 /* CARD SECTION */
+
+.operazioni h2{
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+    margin-bottom: 8rem;
+}
+
+.card-container .card{
+    width: 30%;
+}
+
+.card h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+/* MANY-TEAMS */
+
+.many-teams h2{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+
+}
+
+/* DESIGNIT */
+
+.designit .rectangle{
+    width: 16vw;
+    height: 200px;
+}
+
+.designit .center-content{
+    width: 36vw;
+    height: 200px;
+    background-color: beige;
+}
+
+.square{
+    width: 16vw;
+    aspect-ratio: 1;
+    background-color: red;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.square img{
+    width: 8rem;
+}
+
 
 
 

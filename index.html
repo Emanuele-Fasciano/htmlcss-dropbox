@@ -7,6 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Dropbox</title>
 
+	<!-- Link fontawesome -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- Link CSS -->
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/utils.css">
 	<link rel="stylesheet" href="./css/style.css">
@@ -36,7 +43,7 @@
 						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui neque enim est nemo ad nihil cum unde libero numquam deleniti consequuntur odit amet, dolorem molestiae dolorum totam animi odio repellat, doloremque hic rerum. Molestias!</p>
 						<div><button class="btn-blue">Inizia la tua prova gratuita</button></div>
 						<div>Annulla in qialsiasi momento</div>
-						<div>freccia</div>
+						<div><i class="fa-solid fa-arrow-down"></i></div>
 					</div>
 					<div class="big-space">
 						<img src="img/jumbo.png" alt="">
@@ -49,16 +56,17 @@
 	<main>
 		<section class="plane small-container">
 			<h2>Trova il piano business che fa per te</h2>
-			<div class="fatturazione">
-				<div>Fatturazione mensile</div>
-				<div>Fatturazione annuale</div>
+			<div class="fatturazione d-flex">
+			<div><input type="radio" name="Fatturazione mensile" id="">Fatturazione mensile</div>
+			<div><input type="radio" name="Fatturazione annuale" id="">Fatturazione annuale</div>
+
 			</div>
 			<div class="column-container d-flex">
 				<div class="column">
-					<div class="type">Singolo</div>
+					<div class="type"><i class="fa-solid fa-user"></i>Singolo</div>
 					<div class="list">
 						<h3>Professional</h3>
-						<div class="price">12.00</div>
+						<div class="price">€12.00</div>
 						<div class="time">/mese</div>
 						<div class="user">1 utente</div>
 						<div class="space">5 TB di spazio di arichiviazione sicuro</div>
@@ -74,10 +82,10 @@
 				</div> 
 
 				<div class="column">
-					<div class="type">Singolo</div>
+					<div class="type"><i class="fa-solid fa-users"></i>Team</div>
 					<div class="list">
 						<h3>Professional</h3>
-						<div class="price">12.00</div>
+						<div class="price">€18.00</div>
 						<div class="time">/mese</div>
 						<div class="user">1 utente</div>
 						<div class="space">5 TB di spazio di arichiviazione sicuro</div>
@@ -96,10 +104,10 @@
 				</div>
 
 				<div class="column">
-					<div class="type">Singolo</div>
+					<div class="type"><i class="fa-solid fa-building"></i>Azienda</div>
 					<div class="list">
 						<h3>Professional</h3>
-						<div class="price">12.00</div>
+						<div class="price">Contattaci</div>
 						<div class="time">/mese</div>
 						<div class="user">1 utente</div>
 						<div class="space">5 TB di spazio di arichiviazione sicuro</div>
@@ -144,16 +152,75 @@
 		</section>
 
 		<section class="operazioni small-container">
+			<h2>Esegui più operazioni con Dropbox Business</h2>
 			<div class="card-container">
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
+				<div class="card">
+					<img src="img/business-feature-switching-tools.png" alt="">
+					<h3>Passa di meno da uno strumento all'altro</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus suscipit pariatur veniam iusto odio consectetur, maxime deserunt facilis. Obcaecati, maxime.</p>
+				</div>
+				<div class="card">
+					<img src="img/business-feature-send-files-it.png" alt="">
+					<h3>Passa di meno da uno strumento all'altro</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus suscipit pariatur veniam iusto odio
+						consectetur, maxime deserunt facilis. Obcaecati, maxime.</p>
+				</div>
+				<div class="card">
+					<img src="img/business-feature-coordinate-it.png" alt="">
+					<h3>Passa di meno da uno strumento all'altro</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus suscipit pariatur veniam iusto odio
+						consectetur, maxime deserunt facilis. Obcaecati, maxime.</p>
+				</div>
+				<div class="card">
+					<img src="img/business-feature-integrations-it.png" alt="">
+					<h3>Passa di meno da uno strumento all'altro</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus suscipit pariatur veniam iusto odio
+						consectetur, maxime deserunt facilis. Obcaecati, maxime.</p>
+				</div>
+				<div class="card">
+					<img src="img/business-feature-multi-device.png" alt="">
+					<h3>Passa di meno da uno strumento all'altro</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus suscipit pariatur veniam iusto odio
+						consectetur, maxime deserunt facilis. Obcaecati, maxime.</p>
+				</div>
+				<div class="card">
+					<img src="img/business-feature-security.png" alt="">
+					<h3>Passa di meno da uno strumento all'altro</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus suscipit pariatur veniam iusto odio
+						consectetur, maxime deserunt facilis. Obcaecati, maxime.</p>
+				</div>
 			</div>
-
 		</section>
+
+		<section class="many-teams small-container">
+			<h2>Più di 500.000 team utilizzano <br> Dropbox Business</h2>
+			<a href="#">Scopri di più sui nostri clienti</a>
+		</section>
+
+		<section class="designit d-flex">
+			<div class="rectangle">
+				<div id="green-designit" class="square"><img src="img/designit.svg" alt=""></div>
+				<div id="florida" class="square"><img src="img/university_of_florida.svg" alt=""></div>
+			</div>
+			<div class="rectangle">
+				<div id="arizona" class="square"><img src="img/arizona_state_university.svg" alt=""></div>
+				<div id="topps" class="square"><img src="img/topps.svg" alt=""></div>
+			</div>
+			<div class="center-content">
+
+		
+			</div>
+			<div class="rectangle">
+				<div id="bicycle" class="square"><img src="img/world_bicycle_relief.svg" alt=""></div>
+				<div id="lonley-planet" class="square"><img src="img/lonely_planet.svg" alt=""></div>
+			</div>
+			<div class="rectangle">
+				<div id="hearst" class="square"><img src="img/hearst_corp.svg" alt=""></div>
+				<div id="clear-channel" class="square"><img src="img/clear_channel.svg" alt=""></div>
+			</div>
+		</section>
+
+
 
 	</main>
 
