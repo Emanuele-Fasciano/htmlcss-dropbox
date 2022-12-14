@@ -242,22 +242,22 @@ body{
 
 /* DESIGNIT */
 
+.designit{
+    margin-top: 7rem;
+}
+
 .designit .rectangle{
     width: 16vw;
-    height: 200px;
 }
 
 .designit .center-content{
     width: 36vw;
-    height: 200px;
-    background-color: beige;
+    background-color: #F5F5F5;
 }
 
 .square{
     width: 16vw;
     aspect-ratio: 1;
-    background-color: red;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,7 +266,125 @@ body{
 
 .square img{
     width: 8rem;
+    filter: invert(1);
 }
+
+#green-designit{
+    background-color: #A2D39B;
+    border: 0.7rem solid #D1E9CD;
+}
+
+#florida{
+    background-color: #0093CE;
+}
+
+#arizona{
+    background-color: #61082B;
+}
+
+#topps{
+    background-color: #FF1C1C;
+}
+
+#bicycle{
+    background-color: #D5001F;
+}
+
+#lonley-planet{
+    background-color: #0D2481;
+}
+
+#hearst{
+    background-color: #B4D0E7;
+}
+
+#clear-channel{
+    background-color: #FFD830;
+}
+
+
+.center-content img{
+    width: 18rem;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.center-content p{
+    font-size: 0.9rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.center-content address{
+    font-size: 0.9rem;
+    padding-left: 2rem;
+}
+
+/* FREE USE */
+
+.free-use{
+    background-color: #B4D0E7;
+    margin-bottom: 4rem;
+}
+
+.free-use .small-container{
+    padding-top: 6rem;
+}
+
+.free-use h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #61082B;
+}
+
+ .free-use .small-space{
+    position: relative;
+ }
+
+ .free-use button{
+    position: absolute;
+    right: 0;
+ }
+
+
+ /* QUESTION*/
+
+ .question h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+
+ }
+
+ /* FOOTER */
+
+ footer{
+    background-color: black;
+    color: white;
+ }
+
+ .bottom-column{
+    width: 20%;
+    border: 2px solid black;
+    height: 200px;
+ }
+
+ footer h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+ }
+
+ footer ul li{
+    padding: 0.3rem 0rem;
+ }
+
+
+
+
+
+
 
 
 
