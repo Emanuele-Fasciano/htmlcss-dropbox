@@ -1,0 +1,56 @@
+/* Utils */
+
+.small-container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.big-container {
+	max-width: 950px;
+	margin: auto;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.small-space{
+	width: 40%;
+	/* debug */
+	min-height: 200px;
+	
+}
+
+.big-space{
+	width: 60%;
+	/* debug */
+	min-height: 200px;
+	
+}
+
+.column{
+	width: 30%;
+	border: 2px solid lightgray;
+}
+
+ul li{
+	list-style: none;
+}
+
+.btn-blue{
+	padding: 0.4rem 0.7rem;
+	background-color: #0061FF;
+	border: none;
+	color: white;
+}
+
+.btn-white{
+	padding: 0.4rem 0.7rem;
+	background-color: white;
+}

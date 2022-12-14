@@ -1,0 +1,193 @@
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+
+
+.main-header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo-description{
+    display: flex;
+    align-items: center;
+}
+
+.contact-login{
+    display: flex;
+    align-items: center;
+}
+
+.main-header a{
+    text-decoration: none;
+    color: rgb(25, 24, 24);
+    height: 80px;
+    padding: 0 1rem;
+}
+
+
+/* JUMBOTRON */
+
+.jumbotron{
+    padding-top: 80px;
+    background-color: #B4D0E7;
+    margin-bottom: 7rem;
+}
+
+.jumbotron h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 2.5rem;
+}
+
+.jumbotron p{
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron button{
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron img{
+    position: relative;
+    top: 3.5rem;
+}
+
+
+
+/* MAIN */
+
+
+/* SECTION PLANE */
+
+.plane h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.column-container{
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.column .type{
+    text-align: center;
+    padding: .3rem 0;
+    border-bottom: 2px solid lightgray;
+}
+
+.column .list{
+    padding: 0 1rem ;
+    font-size: 0.9rem;
+}
+
+.column h3{
+    font-size:1.3rem ;
+    font-weight: bold;
+    margin-top: 1.7rem;
+    margin-bottom: .8rem;
+}
+
+.column .price{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.column .time{
+    color: rgb(182, 179, 179);
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+}
+
+.column .space{
+    margin: 1rem 0;
+}
+
+.column .share{
+    margin-bottom: 2rem;
+}
+
+.column button{
+    margin-bottom: 1.5rem;
+}
+
+.column h4{
+    font-weight: bold;
+}
+
+.column li{
+    margin:1rem 0;
+}
+
+/* SECTION ENTERPRISE */
+
+.enterprise {
+    border: 2px solid lightgray;
+    margin-bottom: 8rem;
+}
+
+.partner .small-space{
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.enterprise .team{
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    padding: 0.3rem 0;
+}
+
+.enterprise .big-space{
+    padding-left: 1.7rem;
+}
+
+.enterprise h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.enterprise h4{
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.enterprise button{
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+}
+
+/* PARTNER */
+
+.partner h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.partner p{
+    margin-bottom: 1rem;
+}
+   
+    
+
+
+
+/* CARD SECTION */
+
+
+
