@@ -60,11 +60,11 @@ body{
 
 .jumbotron i{
     font-size: 2.7rem;
-    margin-top: 4.7rem;
+    margin-top: 2rem;
     display: inline-block;
 }
 
-.jumbotron img{
+.jumbotron .big-container{
     position: relative;
     top: 3.5rem;
 }
@@ -108,44 +108,60 @@ body{
     font-size: 0.9rem;
 }
 
-.column h3{
+.list h3{
     font-size:1.3rem ;
     font-weight: bold;
     margin-top: 1.7rem;
     margin-bottom: .8rem;
 }
 
-.column .price{
+.list .price{
     font-weight: bold;
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
 }
 
-.column .time{
+.list .time{
     color: rgb(182, 179, 179);
     margin-bottom: 2rem;
     font-size: 0.8rem;
 }
 
-.column .space{
+.list .space{
     margin: 1rem 0;
 }
 
-.column .share{
+.list .share{
     margin-bottom: 2rem;
 }
 
-.column button{
+.list button{
     margin-bottom: 1.5rem;
 }
 
-.column h4{
+.list .br{
+    height: 2px;
+    width: 20%;
+    margin: 3rem 0;
+    border: 1px solid lightgray;
+}
+
+.list h4{
     font-weight: bold;
 }
 
-.column li{
+.list li{
     margin:1rem 0;
 }
+
+.list li::before{
+    content: "\2713";
+    color: #0093CE;
+
+}
+
+
+
 
 /* SECTION ENTERPRISE */
 
@@ -307,7 +323,7 @@ body{
     width: 18rem;
     margin-top: 2.5rem;
     margin-left: 2.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3.4rem;
 }
 
 .center-content p{
@@ -354,7 +370,37 @@ body{
     font-size: 2.5rem;
     font-weight: bolder;
     margin-bottom: 3rem;
+ }
 
+ .question-box h4{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+ }
+
+ .question-box p{
+   display: none;
+ }
+
+ .question-box:hover p{
+    display: block;
+ }
+
+ .question-box span{
+    margin-left: 9rem;
+ }
+ 
+ .question-box .chevron-hover{
+    display: none;
+ }
+
+ .question-box:hover .chevron-hover{
+    display: block;
+ }
+
+ .question-box:hover .chevron-show{
+    display: none;
  }
 
  /* FOOTER */
@@ -362,9 +408,14 @@ body{
  footer{
     background-color: black;
     color: white;
+    margin-top: 6rem;
  }
 
- .bottom-column{
+ footer .big-container{
+    padding-top: 4.5rem;
+ }
+
+ .footer-column{
     width: 20%;
     border: 2px solid black;
     height: 200px;
@@ -373,7 +424,7 @@ body{
  footer h3{
     font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
  }
 
  footer ul li{
