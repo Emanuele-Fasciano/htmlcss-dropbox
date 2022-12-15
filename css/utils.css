@@ -22,15 +22,11 @@
 
 .small-space{
 	width: 40%;
-	/* debug */
-	min-height: 200px;
-	
+
 }
 
 .big-space{
 	width: 60%;
-	/* debug */
-	min-height: 200px;
 	
 }
 
@@ -48,9 +44,19 @@ ul li{
 	background-color: #0061FF;
 	border: none;
 	color: white;
+	cursor: pointer;
+}
+
+.btn-blue:hover{
+	filter: opacity(0.8);
 }
 
 .btn-white{
 	padding: 0.4rem 0.7rem;
 	background-color: white;
+	cursor: pointer;
+}
+
+.btn-white:hover {
+	filter: opacity(0.8);
 }
